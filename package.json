@@ -1,0 +1,21 @@
+{
+  "name": "mistra-opcua-agent",
+  "version": "1.0.0",
+  "description": "An OPC UA agent for browsing and mapping industrial automation servers using Mistra",
+  "type": "module",
+  "scripts": {
+    "dev": "mistra dev",
+    "build": "mistra build",
+    "start": "mistra start"
+  },
+  "dependencies": {
+    "@mistra/core": "latest",
+    "@mistra/mcp": "latest",
+    "node-opcua": "^2.115.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
